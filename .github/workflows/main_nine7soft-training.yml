@@ -32,7 +32,11 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: node-app
-        path: .
+        path: |
+          next-pwa/.next
+          next-pwa/public
+          next-pwa/node_modules
+          next-pwa/package.json
 
   deploy:
     runs-on: ubuntu-latest
