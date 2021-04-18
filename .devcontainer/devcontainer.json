@@ -1,0 +1,16 @@
+{
+    "name": "CmdLine dev container",
+    "dockerComposeFile": [
+        "docker-compose.yml"
+    ],
+    "service": "next-cmdline-dev",
+    "workspaceFolder": "/next",
+    "extensions": [
+		"eamodio.gitlens",
+		"shd101wyy.markdown-preview-enhanced",
+        "esbenp.prettier-vscode",
+        "dsznajder.es7-react-js-snippets"
+	],
+    "remoteUser": "node", 
+    "shutdownAction": "stopCompose",
+}

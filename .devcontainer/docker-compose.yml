@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  next-cmdline-dev:
+    build:
+      context: .
+    ports:
+      - 4000:3000
+    working_dir: /var/www/next
+    volumes:
+        - "..:/next"
+    command: sleep infinity
