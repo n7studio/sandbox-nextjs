@@ -42,5 +42,5 @@ jobs:
         uses: docker/build-push-action@v2.4.0
         with:
           push: true
-          tags: ninesoft/sandbox:latest
+          tags: nine7soft/sandbox:latest
           context: ./next-pwa
