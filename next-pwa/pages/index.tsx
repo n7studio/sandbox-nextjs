@@ -23,7 +23,7 @@ export const Home: React.FunctionComponent = () => {
             </Head>
             <div className={styles.container}>
                 <main className={styles.main}>
-                    <h1>Welcome to Nine7soft training</h1>
+                    <h1>Welcome to Nine7soft training - gitpod</h1>
                 </main>
                 <div className={styles.core}>
                     <GeolocationFragment />
